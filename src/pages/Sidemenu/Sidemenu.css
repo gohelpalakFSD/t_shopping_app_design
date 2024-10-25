@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* .container{
+    max-width: 1400px;
+    margin: 0 auto;
+} */
+.section{
+    padding: 50px 10px;
+    width: 20%;
+}
+.size-chart{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+}
+.size{
+    width: 25%;
+    background-color: rgb(180, 180, 180);
+    color: rgb(23, 22, 22);
+    border-radius: 50%;
+    height: 50px;
+    width:  50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2.5px;
+}
+@media only screen and (max-width:700px){
+    .section{
+      width: 100%;
+      padding: 0px;
+    }
+  }
